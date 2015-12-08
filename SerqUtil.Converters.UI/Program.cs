@@ -16,7 +16,7 @@ namespace SerqUtil.Converters.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBase64Converter());
+            Application.Run(new frmJSONConverter());
         }
     }
 }

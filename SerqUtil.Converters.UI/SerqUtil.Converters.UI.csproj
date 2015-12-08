@@ -55,10 +55,28 @@
     <Compile Include="frmBase64Converter.Designer.cs">
       <DependentUpon>frmBase64Converter.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmJSONConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJSONConverter.Designer.cs">
+      <DependentUpon>frmJSONConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBase64Converter.resx">
       <DependentUpon>frmBase64Converter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJSONConverter.resx">
+      <DependentUpon>frmJSONConverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
